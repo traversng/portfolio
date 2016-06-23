@@ -43,7 +43,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="/travisueki_portfolio/public">Travis Ueki</a>
+                <a class="navbar-brand" href="/">Travis Ueki</a>
             </div>
 
             <div class="collapse navbar-collapse" id="custom-collapse">
@@ -51,7 +51,7 @@
                 <ul class="nav navbar-nav navbar-right">
 
                     <li class="dropdown">
-                        <a href="/travisueki_portfolio/public">Home</a>
+                        <a href="/">Home</a>
                         {{--<ul class="dropdown-menu">--}}
                             {{--<li><a href="/travisueki_portfolio/public">Image Parallax 1</a></li>--}}
                             {{--<li><a href="index-2.html">Image Parallax 2</a></li>--}}
@@ -64,7 +64,7 @@
                         {{--</ul>--}}
                     </li>
 
-                    <li><a href="/travisueki_portfolio/public/about">About</a></li>
+                    <li><a href="/about">About</a></li>
 
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio</a>
