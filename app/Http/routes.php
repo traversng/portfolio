@@ -13,6 +13,6 @@
 
 Route::get('/', 'PortfolioController@index');
 Route::get('about', 'PortfolioController@about');
-Route::get('contact', 'PortfolioController@contact');
+Route::get('/dev.travisueki.com/contact', 'PortfolioController@contact');
 Route::get('blog', 'PortfolioController@blog_list');
 Route::get('/blog/{post_id}', 'PortfolioController@blog_post');
