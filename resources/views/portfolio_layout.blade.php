@@ -198,7 +198,7 @@
                         </ul>
                     </li>
 
-                    <li><a href="/travisueki_portfolio/public/contact">Contact</a></li>
+                    <li><a href="/contact">Contact</a></li>
 
                 </ul>
             </div>
