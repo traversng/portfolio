@@ -70,54 +70,12 @@
                         <a href="/portfolio">Portfolio</a>
                     </li>
 
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog</a>
-                        <ul class="dropdown-menu" role="menu">
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grid</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="blog-grid-2col.html">2 Columns</a></li>
-                                    <li><a href="blog-grid-3col.html">3 Columns</a></li>
-                                    <li><a href="blog-grid-4col.html">4 Columns</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Standart</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="blog-standart-1.html">Standart 1</a></li>
-                                    <li><a href="blog-standart-2.html">Standart 2</a></li>
-                                </ul>
-                            </li>
-
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Single</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="blog-single.html">Single 1</a></li>
-                                    <li><a href="blog-single-2.html">Single 2</a></li>
-                                </ul>
-                            </li>
-
-                        </ul>
+                    <li>
+                        <a href="/blog" >Blog</a>
                     </li>
-
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Features</a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="comp-alerts-wells.html"><i class="fa fa-bolt"></i> Alerts and Wells</a></li>
-                            <li><a href="comp-buttons.html"><i class="fa fa-link fa-sm"></i> Buttons</a></li>
-                            <li><a href="comp-collapses-tabs.html"><i class="fa fa-tasks"></i> Collapses &amp; Tabs</a></li>
-                            <li><a href="comp-content-box.html"><i class="fa fa-list-alt"></i> Contents Box</a></li>
-                            <li><a href="comp-forms.html"><i class="fa fa-check-square-o"></i> Forms</a></li>
-                            <li><a href="comp-icons.html"><i class="fa fa-star"></i> Icons</a></li>
-                            <li><a href="comp-progress-bars.html"><i class="fa fa-server"></i> Progress Bars</a></li>
-                            <li><a href="comp-typography.html"><i class="fa fa-font"></i> Typography</a></li>
-                        </ul>
+                    <li>
+                        <a href="/contact">Contact</a>
                     </li>
-
-                    <li><a href="/contact">Contact</a></li>
-
                 </ul>
             </div>
 
