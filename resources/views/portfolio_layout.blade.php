@@ -235,9 +235,11 @@
                         <div class="content-box-icon">
                             <span class="icon-phone"></span>
                         </div>
-                        <div class="content-box-title font-inc">
-                            (951) 234-4436
-                        </div>
+                        <a href="tel:1-951-234-4436">
+                            <div class="content-box-title font-inc">
+                                (951) 234-4436
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- /CONTENT BOX -->
@@ -248,9 +250,11 @@
                         <div class="content-box-icon">
                             <span class="icon-envelope"></span>
                         </div>
-                        <div class="content-box-title font-inc">
-                            travis@travisueki.com
-                        </div>
+                        <a href="mailto:travis@travisueki.com">
+                            <div class="content-box-title font-inc">
+                                travis@travisueki.com
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <!-- /CONTENT BOX -->
