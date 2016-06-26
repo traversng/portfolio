@@ -9,7 +9,7 @@ use App\Http\Requests;
 
 class BlogController extends Controller
 {
-    protected $fillable = ['title', 'body'];
+    protected $fillable = [ 'id', 'author_id','title', 'body', 'created_at', 'updated_at'];
     //
     public function __construct() {
         $this->middleware('auth');
@@ -30,19 +30,22 @@ class BlogController extends Controller
         $post = new Post();
         $post->title = $request->get('title');
         $post->body = $request->get('body');
-        $post->slug = str_slug($post->title);
         $post->author_id = $request->user()->id;
-        if($request->has('save'))
-        {
-            $post->active = 0;
-            $message = 'Post saved successfully';
-        }
-        else
-        {
-            $post->active = 1;
-            $message = 'Post published successfully';
-        }
         $post->save();
-        return redirect('/display_posts')->withMessage($message);
+        return redirect('/display_posts');
+    }
+
+    public function edit(Post $post) {
+        return view('blog.edit_post', compact('post'));
+    }
+
+    public function update(Request $request, Post $post) {
+        $post->update($request->all());
+        return redirect('/display_posts');
+    }
+
+    public function destroy(Post $post) {
+        $post->delete();
+        return redirect('/display_posts');
     }
 }
