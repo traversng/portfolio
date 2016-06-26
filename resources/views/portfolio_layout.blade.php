@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
+    <meta property="og:title" content="Travis Ueki's Portfolio" />
+    <meta property="og:url" content="http://www.travisueki.com" />
+    <meta property="og:description" content="The personal portfolio of Travis Ueki" />
 
     <title>Travis Ueki</title>
 
