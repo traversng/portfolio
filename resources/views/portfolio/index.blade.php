@@ -31,16 +31,12 @@
                     <div class="col-sm-12">
 
                         <ul id="filters" class="filter font-inc">
-                            <li><a href="#" data-filter="*" class="current wow fadeInUp">All</a></li>
-                            <li><a href="#" data-filter=".Front-end" class="wow fadeInUp" data-wow-delay="0.2s">Front-end</a></li>
-                            <li><a href="#" data-filter=".Back-end" class="wow fadeInUp" data-wow-delay="0.4s">Back-end</a></li>
-                            <li><a href="#" data-filter=".webdesign" class="wow fadeInUp" data-wow-delay="0.8s">Design</a></li>
+                            <li><a href="#" data-filter="*" class="current wow fadeInUp">Projects</a></li>
                         </ul>
 
                     </div>
                 </div>
                 <!-- /PORTFOLIO FILTER -->
-
             </div>
 
             <!-- PORTFOLIO LIST -->
@@ -53,9 +49,9 @@
                             <img src="assets/images/work-masonry-1.jpg" alt="">
                         </div>
                         <div class="work-caption">
-                            <h3 class="work-title font-alt">Corporate Identity</h3>
+                            <h3 class="work-title font-alt">True Solar</h3>
                             <div class="work-descr font-inc">
-                                Illustration
+                                True Car for Solar
                             </div>
                         </div>
                     </a>
@@ -69,9 +65,9 @@
                             <img src="assets/images/work-2.jpg" alt="">
                         </div>
                         <div class="work-caption">
-                            <h3 class="work-title font-alt">Bag MockUp</h3>
+                            <h3 class="work-title font-alt">Trav Chat</h3>
                             <div class="work-descr font-inc">
-                                Marketing
+                                React/Redux/Firebase Chat App
                             </div>
                         </div>
                     </a>
@@ -85,9 +81,9 @@
                             <img src="assets/images/work-3.jpg" alt="">
                         </div>
                         <div class="work-caption">
-                            <h3 class="work-title font-alt">Disk Cover</h3>
+                            <h3 class="work-title font-alt">Blog</h3>
                             <div class="work-descr font-inc">
-                                Illustration
+                                Laravel Blog App
                             </div>
                         </div>
                     </a>
@@ -101,9 +97,9 @@
                             <img src="assets/images/work-4.jpg" alt="">
                         </div>
                         <div class="work-caption">
-                            <h3 class="work-title font-alt">Business Card</h3>
+                            <h3 class="work-title font-alt">Home View</h3>
                             <div class="work-descr font-inc">
-                                Photography
+                                Remote IP Camera Access
                             </div>
                         </div>
                     </a>
@@ -114,12 +110,12 @@
                 <li class="work-item illustration webdesign">
                     <a href="portfolio-single-1.html">
                         <div class="work-image">
-                            <img src="assets/images/work-masonry-2.jpg" alt="">
+                            <img src="assets/images/learningfuze-project.png" alt="">
                         </div>
                         <div class="work-caption">
-                            <h3 class="work-title font-alt">Business Cards</h3>
+                            <h3 class="work-title font-alt">LearningFuze.com</h3>
                             <div class="work-descr font-inc">
-                                Webdesign
+                                PHP Custom MVC/Bootstrap UI
                             </div>
                         </div>
                     </a>
@@ -128,35 +124,35 @@
 
                 <!-- PORTFOLIO ITEM -->
                 <li class="work-item marketing webdesign">
-                    <a href="portfolio-single-1.html">
+                    <a href="http://wodkiller.github.io/trav-weather/#/" target="_blank">
                         <div class="work-image">
-                            <img src="assets/images/work-6.jpg" alt="">
+                            <img src="assets/images/trav-weather.png" alt="">
                         </div>
                         <div class="work-caption">
-                            <h3 class="work-title font-alt">Business Cards in paper clip</h3>
+                            <h3 class="work-title font-alt">Trav Weather</h3>
                             <div class="work-descr font-inc">
-                                Marketing
+                                Weather application
                             </div>
                         </div>
                     </a>
                 </li>
                 <!-- /PORTFOLIO ITEM -->
 
-                <!-- PORTFOLIO ITEM -->
-                <li class="work-item marketing webdesign">
-                    <a href="portfolio-single-1.html">
-                        <div class="work-image">
-                            <img src="assets/images/work-7.jpg" alt="">
-                        </div>
-                        <div class="work-caption">
-                            <h3 class="work-title font-alt">Business Cards in paper clip</h3>
-                            <div class="work-descr font-inc">
-                                Marketing
-                            </div>
-                        </div>
-                    </a>
-                </li>
-                <!-- /PORTFOLIO ITEM -->
+                {{--<!-- PORTFOLIO ITEM -->--}}
+                {{--<li class="work-item marketing webdesign">--}}
+                    {{--<a href="portfolio-single-1.html">--}}
+                        {{--<div class="work-image">--}}
+                            {{--<img src="assets/images/work-7.jpg" alt="">--}}
+                        {{--</div>--}}
+                        {{--<div class="work-caption">--}}
+                            {{--<h3 class="work-title font-alt">Business Cards in paper clip</h3>--}}
+                            {{--<div class="work-descr font-inc">--}}
+                                {{--Marketing--}}
+                            {{--</div>--}}
+                        {{--</div>--}}
+                    {{--</a>--}}
+                {{--</li>--}}
+                {{--<!-- /PORTFOLIO ITEM -->--}}
 
             </ul>
             <!-- /PORTFOLIO LIST -->
@@ -173,15 +169,15 @@
 
                     <!-- MODULE TITLE -->
                     <div class="col-sm-6">
-                        <h2 class="module-title font-alt">Someone quote</h2>
+                        <h2 class="module-title font-alt">Approach</h2>
                     </div>
                     <!-- /MODULE TITLE -->
 
                     <!-- BLOCKQUOTE -->
                     <div class="col-sm-6">
                         <blockquote class="font-serif align-right">
-                            <p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
-                            <p class="font-inc font-uppercase">- Thomas Anderson</p>
+                            <p>“If I had an hour to solve a problem, I’d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.”.</p>
+                            <p class="font-inc font-uppercase">- Albert Einstein</p>
                         </blockquote>
                     </div>
                     <!-- /BLOCKQUOTE -->
@@ -205,18 +201,19 @@
                         <h2 class="module-title font-alt">About</h2>
 
                         <div class="module-subtitle font-inc">
-                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
+                            Born and raised in Hawaii. Navy veteran. Husband. Father. Lucky.
                         </div>
+                        <hr>
 
-                        <p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
+                        <p>
+                            Lucky because my profession is my passion.
+                        <br>
+                            Jon Snow is the son of Rhaegar Targaryen, and the one true heir the the throne.
+                        <br>
+                            My github name is Wodkiller, because I used to kill wods... Now they return the favor and that is ok with me. (for now)
+                        </p>
 
-                        <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
-
-                        <ul class="social-list">
-                            <li><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li><a href="#"><span class="icon-googleplus"></span></a></li>
-                        </ul>
+                        @include('social_links')
 
                     </div>
 

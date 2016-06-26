@@ -17,7 +17,7 @@
                         <h1 class="module-title font-alt align-center">About</h1>
 
                         <div class="module-subtitle font-inc align-center">
-                            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                            BORN AND RAISED IN HAWAII. PROGRAMMER. NAVY VETERAN. HUSBAND. FATHER. BLESSED.
                         </div>
 
                     </div>
@@ -43,7 +43,7 @@
                         <h2 class="module-title font-alt">Info</h2>
 
                         <div class="module-subtitle font-inc">
-                            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                            Looking for a company that is as passionate about web development as I am.
                         </div>
 
                     </div>
@@ -56,15 +56,11 @@
                     <!-- ABOUT CONTENT -->
                     <div class="col-sm-6">
 
-                        <p>The languages only differ in their grammar, their pronunciation and their most common words. Everyone realizes why a new common language would be desirable: one could refuse to pay expensive translators.</p>
+                        <p>The languages only differ in syntax.</p>
 
-                        <p>To achieve this, it would be necessary to have uniform grammar, pronunciation and more common words. If several languages coalesce, the grammar of the resulting language is more simple and regular than that of the individual languages.</p>
+                        <p>All that is important is understanding the problem until the solution is obvious.</p>
 
-                        <ul class="social-list">
-                            <li><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li><a href="#"><span class="icon-googleplus"></span></a></li>
-                        </ul>
+                        @include('social_links')
 
                     </div>
                     <!-- /ABOUT CONTENT -->
@@ -72,28 +68,28 @@
                     <!-- SKILLS -->
                     <div class="col-sm-6">
 
-                        <h5 class="progress-title font-inc">Development</h5>
+                        <h5 class="progress-title font-inc">Angular</h5>
                         <div class="progress">
                             <div class="progress-bar pb-dark" aria-valuenow="60" role="progressbar" aria-valuemin="0" aria-valuemax="100">
                                 <span class="font-inc"></span>
                             </div>
                         </div>
 
-                        <h5 class="progress-title font-inc">Branding</h5>
+                        <h5 class="progress-title font-inc">React</h5>
                         <div class="progress">
                             <div class="progress-bar pb-dark" aria-valuenow="80" role="progressbar" aria-valuemin="0" aria-valuemax="100">
                                 <span class="font-inc"></span>
                             </div>
                         </div>
 
-                        <h5 class="progress-title font-inc">Marketing</h5>
+                        <h5 class="progress-title font-inc">PHP</h5>
                         <div class="progress">
-                            <div class="progress-bar pb-dark" aria-valuenow="50" role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar pb-dark" aria-valuenow="70" role="progressbar" aria-valuemin="0" aria-valuemax="100">
                                 <span class="font-inc"></span>
                             </div>
                         </div>
 
-                        <h5 class="progress-title font-inc">Photography</h5>
+                        <h5 class="progress-title font-inc">Passion</h5>
                         <div class="progress">
                             <div class="progress-bar pb-dark" aria-valuenow="90" role="progressbar" aria-valuemin="0" aria-valuemax="100">
                                 <span class="font-inc"></span>
@@ -126,10 +122,6 @@
 
                         <h2 class="module-title align-center font-alt">Skills</h2>
 
-                        <div class="module-subtitle align-center font-inc">
-                            A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
-                        </div>
-
                     </div>
 
                 </div>
@@ -141,13 +133,13 @@
                     <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="content-box">
                             <div class="content-box-icon">
-                                <span class="icon-camera"></span>
+                                <span class="icon-puzzle"></span>
                             </div>
                             <div class="content-box-title font-inc font-uppercase">
-                                Photography
+                                Programming
                             </div>
                             <div class="content-box-text">
-                                Everyone realizes why a common language would be desirable: one could refuse to pay expensive translators.
+                                Language is redundant.
                             </div>
                         </div>
                     </div>
@@ -157,13 +149,13 @@
                     <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="content-box">
                             <div class="content-box-icon">
-                                <span class="icon-video"></span>
+                                <span class="icon-recycle"></span>
                             </div>
                             <div class="content-box-title font-inc font-uppercase">
-                                Video
+                                Version Control
                             </div>
                             <div class="content-box-text">
-                                Everyone realizes why a common language would be desirable: one could refuse to pay expensive translators.
+                                Just in case there is a bug.
                             </div>
                         </div>
                     </div>
@@ -179,7 +171,7 @@
                                 Design
                             </div>
                             <div class="content-box-text">
-                                Everyone realizes why a common language would be desirable: one could refuse to pay expensive translators.
+                                Material inspired.
                             </div>
                         </div>
                     </div>
@@ -195,76 +187,11 @@
                                 Security
                             </div>
                             <div class="content-box-text">
-                                Everyone realizes why a common language would be desirable: one could refuse to pay expensive translators.
+                                Locked tight from front to back.
                             </div>
                         </div>
                     </div>
                     <!-- /CONTENT BOX -->
-
-                    <!-- CONTENT BOX -->
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <div class="content-box">
-                            <div class="content-box-icon">
-                                <span class="icon-presentation"></span>
-                            </div>
-                            <div class="content-box-title font-inc font-uppercase">
-                                Marketing
-                            </div>
-                            <div class="content-box-text">
-                                Everyone realizes why a common language would be desirable: one could refuse to pay expensive translators.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /CONTENT BOX -->
-
-                    <!-- CONTENT BOX -->
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <div class="content-box">
-                            <div class="content-box-icon">
-                                <span class="icon-puzzle"></span>
-                            </div>
-                            <div class="content-box-title font-inc font-uppercase">
-                                Programming
-                            </div>
-                            <div class="content-box-text">
-                                Everyone realizes why a common language would be desirable: one could refuse to pay expensive translators.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /CONTENT BOX -->
-
-                    <!-- CONTENT BOX -->
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <div class="content-box">
-                            <div class="content-box-icon">
-                                <span class="icon-magnifying-glass"></span>
-                            </div>
-                            <div class="content-box-title font-inc font-uppercase">
-                                SEO
-                            </div>
-                            <div class="content-box-text">
-                                Everyone realizes why a common language would be desirable: one could refuse to pay expensive translators.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /CONTENT BOX -->
-
-                    <!-- CONTENT BOX -->
-                    <div class="col-sm-6 col-md-3 col-lg-3">
-                        <div class="content-box">
-                            <div class="content-box-icon">
-                                <span class="icon-gears"></span>
-                            </div>
-                            <div class="content-box-title font-inc font-uppercase">
-                                Support
-                            </div>
-                            <div class="content-box-text">
-                                Everyone realizes why a common language would be desirable: one could refuse to pay expensive translators.
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /CONTENT BOX -->
-
                 </div>
 
             </div>
@@ -299,7 +226,7 @@
                                 <span></span>
                             </div>
                             <div class="counter-title font-inc">
-                                Total clients
+                                Git Commits
                             </div>
                         </div>
                     </div>
@@ -308,11 +235,11 @@
                     <!-- COUNTER -->
                     <div class="col-sm-3 m-b-md-20">
                         <div class="counter-item">
-                            <div class="counter-number font-alt" data-number="68">
+                            <div class="counter-number font-alt" data-number="219">
                                 <span></span>k
                             </div>
                             <div class="counter-title font-inc">
-                                Photos made
+                                Deadlift
                             </div>
                         </div>
                     </div>
