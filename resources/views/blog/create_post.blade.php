@@ -32,7 +32,7 @@
                         <label class="col-md-4 control-label" for="submit-post"></label>
                         <div class="col-md-8">
                             <button id="submit-post" name="submit-post" class="btn btn-info">Submit</button>
-                            <button id="cancel-post" name="cancel-post" class="btn btn-danger">Cancel</button>
+                            <a href="/display_posts"><input id="cancel-post" class="btn btn-danger" value="Cancel"></a>
                         </div>
                     </div>
                 </fieldset>

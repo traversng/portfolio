@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use App\Post;
 use App\Http\Requests;
 
 class PortfolioController extends Controller
@@ -25,7 +25,8 @@ class PortfolioController extends Controller
 
     // Blog home page controller
     public function blog_list() {
-        return view('portfolio.blog_list');
+        $posts = Post::all();
+        return view('portfolio.blog_list', compact('posts'));
     }
 
     // Blog detail page controller

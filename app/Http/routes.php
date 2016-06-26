@@ -25,3 +25,6 @@ Route::get('/dashboard', 'MainController@index');
 Route::get('new_post', 'BlogController@new_post');
 Route::post('blog/add_post', 'BlogController@add_post');
 Route::get('display_posts', 'BlogController@index');
+Route::get('post/{post}/edit', 'BlogController@edit');
+Route::patch('post/{post}', 'BlogController@update');
+Route::delete('post/{post}', 'BlogController@destroy');
