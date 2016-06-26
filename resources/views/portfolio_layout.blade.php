@@ -52,22 +52,10 @@
 
                     <li class="dropdown">
                         <a href="/">Home</a>
-                        {{--<ul class="dropdown-menu">--}}
-                            {{--<li><a href="/travisueki_portfolio/public">Image Parallax 1</a></li>--}}
-                            {{--<li><a href="index-2.html">Image Parallax 2</a></li>--}}
-                            {{--<li><a href="index-3.html">Slider Parallax 1</a></li>--}}
-                            {{--<li><a href="index-4.html">Slider Parallax 2</a></li>--}}
-                            {{--<li><a href="index-5.html">Text rotator 1</a></li>--}}
-                            {{--<li><a href="index-6.html">Text rotator 2</a></li>--}}
-                            {{--<li><a href="index-7.html">Video background 1</a></li>--}}
-                            {{--<li><a href="index-8.html">Video background 2</a></li>--}}
-                        {{--</ul>--}}
                     </li>
 
-                    <li><a href="/about">About</a></li>
-
                     <li>
-                        <a href="/portfolio">Portfolio</a>
+                        <a href="/about">About</a>
                     </li>
 
                     <li>

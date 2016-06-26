@@ -108,7 +108,7 @@
 
                 <!-- PORTFOLIO ITEM -->
                 <li class="work-item illustration webdesign">
-                    <a href="portfolio-single-1.html">
+                    <a href="http://www.learningfuze.com">
                         <div class="work-image">
                             <img src="assets/images/learningfuze-project.png" alt="">
                         </div>
