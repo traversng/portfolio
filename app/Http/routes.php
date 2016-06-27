@@ -16,7 +16,6 @@ Route::get('/', 'PortfolioController@index');
 Route::get('about', 'PortfolioController@about');
 Route::get('contact', 'PortfolioController@contact');
 Route::get('blog', 'PortfolioController@blog_list');
-Route::get('{post}', 'PortfolioController@details');
 
 
 Route::get('/dashboard', 'MainController@index');
@@ -28,3 +27,4 @@ Route::get('display_posts', 'BlogController@index');
 Route::get('post/{post}/edit', 'BlogController@edit');
 Route::patch('post/{post}', 'BlogController@update');
 Route::delete('post/{post}', 'BlogController@destroy');
+Route::get('{post}', 'PortfolioController@details');
