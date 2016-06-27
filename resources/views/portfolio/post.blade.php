@@ -16,7 +16,7 @@
                             <span class="icon-picture"></span>
                         </div>
 
-                        <h2 class="post-title font-alt">>{{ $post->title }}</h2>
+                        <h2 class="post-title font-alt">{{ $post->title }}</h2>
                         <div class="post-meta font-inc">
                             By <a href="/about">Travis Ueki</a> | {{ $post->created_at }}
                         </div>
