@@ -10,15 +10,14 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+Route::auth();
 
 Route::get('/', 'PortfolioController@index');
 Route::get('about', 'PortfolioController@about');
 Route::get('contact', 'PortfolioController@contact');
 Route::get('blog', 'PortfolioController@blog_list');
-Route::get('/blog/{post_id}', 'PortfolioController@blog_post');
-Route::get('post/{post}/details', 'PortfolioController@details');
+Route::get('{post}', 'PortfolioController@details');
 
-Route::auth();
 
 Route::get('/dashboard', 'MainController@index');
 

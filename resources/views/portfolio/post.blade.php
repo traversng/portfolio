@@ -16,7 +16,7 @@
                             <span class="icon-picture"></span>
                         </div>
 
-                        <h2 class="post-title font-alt"><a href="blog-single.html">{{ $post->title }}</a></h2>
+                        <h2 class="post-title font-alt">>{{ $post->title }}</h2>
                         <div class="post-meta font-inc">
                             By <a href="/about">Travis Ueki</a> | {{ $post->created_at }}
                         </div>
@@ -27,7 +27,7 @@
                     </div>
 
                     <div class="post-more font-inc">
-                        <a href="blog-single.html" class="more-link">Read more</a>
+                        <a href="{{ $post->id }}" class="more-link">Read more</a>
                     </div>
 
                 </div>
