@@ -33,4 +33,8 @@ class PortfolioController extends Controller
     public function blog_post() {
         return view('portfolio.blog_post');
     }
+
+    public function details(Post $post) {
+        return view('portfolio.post_details', compact('post'));
+    }
 }
