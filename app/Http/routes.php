@@ -15,6 +15,7 @@ Route::auth();
 Route::get('/', 'PortfolioController@index');
 Route::get('about', 'PortfolioController@about');
 Route::get('contact', 'PortfolioController@contact');
+Route::post('contact', 'PortfolioController@contact_email');
 Route::get('blog', 'PortfolioController@blog_list');
 
 

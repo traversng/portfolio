@@ -28,22 +28,22 @@
 
                 <div class="col-sm-6 col-sm-offset-3">
 
-                    <form id="contact-form" role="form" novalidate="">
-
+                    <form id="contact-form" role="form" novalidate="" action="contact" method="post">
+                        {{ csrf_field() }}
                         <div class="form-group">
-                            <label class="sr-only" for="cname">Name</label>
-                            <input type="text" id="cname" class="form-control" name="cname" placeholder="Name" required="" data-validation-required-message="Please enter your name." aria-invalid="false">
+                            <label class="sr-only" for="contact_name">Name</label>
+                            <input type="text" id="contact_name" class="form-control" name="contact_name" placeholder="Name" required="" data-validation-required-message="Please enter your name." aria-invalid="false">
                             <p class="help-block text-danger"></p>
                         </div>
 
                         <div class="form-group">
-                            <label class="sr-only" for="cemail">Your Email</label>
-                            <input type="email" id="cemail" name="cemail" class="form-control" placeholder="Your E-mail" required="" data-validation-required-message="Please enter your email address.">
+                            <label class="sr-only" for="contact_email">Your Email</label>
+                            <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Your E-mail" required="" data-validation-required-message="Please enter your email address.">
                             <p class="help-block text-danger"></p>
                         </div>
 
                         <div class="form-group">
-                            <textarea class="form-control" id="cmessage" name="cmessage" rows="7" placeholder="Message" required="" data-validation-required-message="Please enter your message."></textarea>
+                            <textarea class="form-control" id="contact_body" name="contact_body" rows="7" placeholder="Message" required="" data-validation-required-message="Please enter your message."></textarea>
                             <p class="help-block text-danger"></p>
                         </div>
 
