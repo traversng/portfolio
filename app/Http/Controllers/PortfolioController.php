@@ -44,7 +44,7 @@ class PortfolioController extends Controller
 
         $mail = new \PHPMailer;
 
-        $mail->SMTPDebug = 3;                               // Enable verbose debug output
+        $mail->SMTPDebug = 0;                               // Enable verbose debug output
 
         //Tell PHPMailer to use SMTP
         $mail->isSMTP();
@@ -52,7 +52,7 @@ class PortfolioController extends Controller
         // 0 = off (for production use)
         // 1 = client messages
         // 2 = client and server messages
-        $mail->SMTPDebug = 2;
+        $mail->SMTPDebug = 0;
         //Ask for HTML-friendly debug output
         //$mail->Debugoutput = 'html';
         //Set the hostname of the mail server
@@ -97,6 +97,6 @@ class PortfolioController extends Controller
         } else {
             echo "Message sent!";
         }
-        return redirect('/about');
+        return redirect('/');
     }
 }
