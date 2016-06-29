@@ -78,7 +78,7 @@
                 <li class="work-item illustration photography">
                     <a href="portfolio-single-1.html">
                         <div class="work-image">
-                            <img src="assets/images/work-3.jpg" alt="">
+                            <img src="assets/images/blog.png" alt="image of travisueki.com blog">
                         </div>
                         <div class="work-caption">
                             <h3 class="work-title font-alt">Blog</h3>
