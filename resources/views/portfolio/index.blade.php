@@ -76,7 +76,7 @@
 
                 <!-- PORTFOLIO ITEM -->
                 <li class="work-item illustration photography">
-                    <a href="portfolio-single-1.html">
+                    <a href="/blog">
                         <div class="work-image">
                             <img src="assets/images/blog.png" alt="image of travisueki.com blog">
                         </div>
