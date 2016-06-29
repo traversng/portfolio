@@ -142,7 +142,7 @@
             <div class="row">
 
                 <div class="col-sm-12 text-center">
-                    <p class="copyright font-inc m-b-0">© 2016 <a href="/travisueki_portfolio/public">TRAVIS UEKI</a>, All Rights Reserved.</p>
+                    <p class="copyright font-inc m-b-0">© 2016 <a href="/">TRAVIS UEKI</a>, All Rights Reserved.</p>
                 </div>
 
             </div>
