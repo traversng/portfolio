@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Post;
 use App\Http\Requests;
 
-require '/Applications/MAMP/htdocs/travisueki_portfolio/vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
+require '/var/www/html/dev.travisueki/portfolio/vendor/phpmailer/phpmailer/PHPMailerAutoload.php';
 
 class PortfolioController extends Controller
 {
