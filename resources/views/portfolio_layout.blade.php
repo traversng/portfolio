@@ -118,9 +118,9 @@
                         <div class="content-box-icon">
                             <span class="icon-envelope"></span>
                         </div>
-                        <a href="mailto:travis@travisueki.com">
+                        <a href="/contact">
                             <div class="content-box-title font-inc">
-                                travis@travisueki.com
+                                Contact Me
                             </div>
                         </a>
                     </div>
